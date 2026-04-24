@@ -1,0 +1,16 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Internal planning / implementation notes — kept locally, not shipped publicly
+*_STATUS.md
+*_PLAN.md
+*_NOTES.md
+*_EXPLANATION.md
