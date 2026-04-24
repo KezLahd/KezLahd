@@ -60,11 +60,27 @@ Apparel + hardware brand. Cerebro was the first firmware drop.
 
 ## Public on GitHub
 
+### Shipped
+
 | Repo | What it is |
 |---|---|
 | [**cerebro-firmware**](https://github.com/KezLahd/cerebro-firmware) | ESP32-S3 firmware for the Cerebro voice-capture device — animated face, BLE pairing, Wi-Fi HTTP API, dual-codec audio. |
+| [**cerebro**](https://github.com/KezLahd/cerebro) | Product landing page for Cerebro with a Preston Blair phonetic lip-sync on the hero face. |
 | [**GridAlertPortal**](https://github.com/KezLahd/GridAlertPortal) | Web portal for GridAlert, Arctiq's real-time electricity-outage alerting platform — Next.js + Supabase + PostGIS with multi-tenant RLS. |
 | [**Screen-Split**](https://github.com/KezLahd/Screen-Split) | Windows desktop app that composites your screen + webcam + logo into one resizable window. Python + PyQt6, 2.8k lines. |
+
+### Shelved, kept as receipts
+
+| Repo | What it is |
+|---|---|
+| [**atlas**](https://github.com/KezLahd/atlas) | A content OS I built before I understood that you don't build a content habit by building a content OS. Kept as chapter zero. |
+| [**reverly**](https://github.com/KezLahd/reverly) | AI-voice SaaS for real-estate agents. The tech shipped; the compliance moat to sell it didn't. |
+
+### Personal / internal
+
+| Repo | What it is |
+|---|---|
+| [**eurotrip**](https://github.com/KezLahd/eurotrip) | Private PWA itinerary app for four mates through Europe. No public landing — this repo is the landing. |
 | [**HackathonWeb-nr**](https://github.com/KezLahd/HackathonWeb-nr) | A tiny two-person task board my mate and I built so we could stay out of each other's way while vibe-coding our first projects together. |
 
 More may come public as projects graduate out of "learning" and into "ready to show." The rest stay private on purpose — not because they're secret, because they're not good yet.
