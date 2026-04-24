@@ -3,9 +3,9 @@
 </div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Sydney-Australia-0D0D0D?style=for-the-badge&labelColor=0D0D0D" alt="Sydney"/>
-  <img src="https://img.shields.io/badge/Year-01-E8000A?style=for-the-badge&labelColor=0D0D0D" alt="Year"/>
-  <img src="https://img.shields.io/badge/Mostly-Private-0D0D0D?style=for-the-badge&labelColor=E8000A" alt="Mostly Private"/>
+  <img src="https://img.shields.io/badge/Sydney-Australia-16130F?style=for-the-badge&labelColor=16130F" alt="Sydney"/>
+  <img src="https://img.shields.io/badge/Year-01-1E3A5F?style=for-the-badge&labelColor=16130F" alt="Year"/>
+  <img src="https://img.shields.io/badge/Mostly-Private-16130F?style=for-the-badge&labelColor=1E3A5F" alt="Mostly Private"/>
 </p>
 
 <br/>
@@ -71,25 +71,25 @@ More may come public as projects graduate out of "learning" and into "ready to s
 ## What I build with
 
 <p>
-  <img src="https://img.shields.io/badge/Next.js-0D0D0D?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js"/>
-  <img src="https://img.shields.io/badge/TypeScript-0D0D0D?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/Supabase-0D0D0D?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase"/>
-  <img src="https://img.shields.io/badge/Tailwind-0D0D0D?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind"/>
-  <img src="https://img.shields.io/badge/shadcn/ui-0D0D0D?style=for-the-badge&logo=shadcnui&logoColor=white" alt="shadcn"/>
+  <img src="https://img.shields.io/badge/Next.js-16130F?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js"/>
+  <img src="https://img.shields.io/badge/TypeScript-16130F?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/Supabase-16130F?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase"/>
+  <img src="https://img.shields.io/badge/Tailwind-16130F?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind"/>
+  <img src="https://img.shields.io/badge/shadcn/ui-16130F?style=for-the-badge&logo=shadcnui&logoColor=white" alt="shadcn"/>
 </p>
 <p>
-  <img src="https://img.shields.io/badge/ESP32--S3-E8000A?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32-S3"/>
-  <img src="https://img.shields.io/badge/C++-E8000A?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>
-  <img src="https://img.shields.io/badge/Arduino-E8000A?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino"/>
-  <img src="https://img.shields.io/badge/PlatformIO-E8000A?style=for-the-badge&logo=platformio&logoColor=white" alt="PlatformIO"/>
-  <img src="https://img.shields.io/badge/BLE-E8000A?style=for-the-badge&logo=bluetooth&logoColor=white" alt="BLE"/>
+  <img src="https://img.shields.io/badge/ESP32--S3-1E3A5F?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32-S3"/>
+  <img src="https://img.shields.io/badge/C++-1E3A5F?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>
+  <img src="https://img.shields.io/badge/Arduino-1E3A5F?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino"/>
+  <img src="https://img.shields.io/badge/PlatformIO-1E3A5F?style=for-the-badge&logo=platformio&logoColor=white" alt="PlatformIO"/>
+  <img src="https://img.shields.io/badge/BLE-1E3A5F?style=for-the-badge&logo=bluetooth&logoColor=white" alt="BLE"/>
 </p>
 <p>
-  <img src="https://img.shields.io/badge/Blender-0D0D0D?style=for-the-badge&logo=blender&logoColor=white" alt="Blender"/>
-  <img src="https://img.shields.io/badge/R3F-0D0D0D?style=for-the-badge&logo=three.js&logoColor=white" alt="R3F"/>
-  <img src="https://img.shields.io/badge/Shopify-0D0D0D?style=for-the-badge&logo=shopify&logoColor=white" alt="Shopify"/>
-  <img src="https://img.shields.io/badge/Claude_API-E8000A?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude API"/>
-  <img src="https://img.shields.io/badge/Whisper-E8000A?style=for-the-badge&logo=openai&logoColor=white" alt="Whisper"/>
+  <img src="https://img.shields.io/badge/Blender-16130F?style=for-the-badge&logo=blender&logoColor=white" alt="Blender"/>
+  <img src="https://img.shields.io/badge/R3F-16130F?style=for-the-badge&logo=three.js&logoColor=white" alt="R3F"/>
+  <img src="https://img.shields.io/badge/Shopify-16130F?style=for-the-badge&logo=shopify&logoColor=white" alt="Shopify"/>
+  <img src="https://img.shields.io/badge/Claude_API-1E3A5F?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude API"/>
+  <img src="https://img.shields.io/badge/Whisper-1E3A5F?style=for-the-badge&logo=openai&logoColor=white" alt="Whisper"/>
 </p>
 
 <br/>
@@ -97,9 +97,9 @@ More may come public as projects graduate out of "learning" and into "ready to s
 ## Reach me
 
 <p>
-  <a href="https://healthagent.com.au"><img src="https://img.shields.io/badge/Health_Agent-0D0D0D?style=for-the-badge" alt="Health Agent"/></a>
-  <a href="https://arctiqservices.com.au"><img src="https://img.shields.io/badge/Arctiq-0D0D0D?style=for-the-badge" alt="Arctiq"/></a>
-  <a href="https://404training.com"><img src="https://img.shields.io/badge/404_Training-E8000A?style=for-the-badge" alt="404 Training"/></a>
+  <a href="https://healthagent.com.au"><img src="https://img.shields.io/badge/Health_Agent-16130F?style=for-the-badge" alt="Health Agent"/></a>
+  <a href="https://arctiqservices.com.au"><img src="https://img.shields.io/badge/Arctiq-16130F?style=for-the-badge" alt="Arctiq"/></a>
+  <a href="https://404training.com"><img src="https://img.shields.io/badge/404_Training-1E3A5F?style=for-the-badge" alt="404 Training"/></a>
 </p>
 
 <br/>
