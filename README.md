@@ -127,4 +127,6 @@ More may come public as projects graduate out of "learning" and into "ready to s
 
 <p align="center">
   <sub>Sydney · 2026 · <b>Most repos private.</b> The public ones are the ones you asked to see.</sub>
+  <br/>
+  <sub>Another <a href="https://instagram.com/kieranjxn">Kez Curation ↗</a></sub>
 </p>
