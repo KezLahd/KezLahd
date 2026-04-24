@@ -62,7 +62,10 @@ Apparel + hardware brand. Cerebro was the first firmware drop.
 
 | Repo | What it is |
 |---|---|
-| [**cerebro-firmware**](https://github.com/KezLahd/cerebro-firmware) | ESP32-S3 firmware for the Cerebro voice-capture device — animated face, BLE pairing, Wi-Fi HTTP API, dual-codec audio |
+| [**cerebro-firmware**](https://github.com/KezLahd/cerebro-firmware) | ESP32-S3 firmware for the Cerebro voice-capture device — animated face, BLE pairing, Wi-Fi HTTP API, dual-codec audio. |
+| [**GridAlertPortal**](https://github.com/KezLahd/GridAlertPortal) | Web portal for GridAlert, Arctiq's real-time electricity-outage alerting platform — Next.js + Supabase + PostGIS with multi-tenant RLS. |
+| [**Screen-Split**](https://github.com/KezLahd/Screen-Split) | Windows desktop app that composites your screen + webcam + logo into one resizable window. Python + PyQt6, 2.8k lines. |
+| [**HackathonWeb-nr**](https://github.com/KezLahd/HackathonWeb-nr) | A tiny two-person task board my mate and I built so we could stay out of each other's way while vibe-coding our first projects together. |
 
 More may come public as projects graduate out of "learning" and into "ready to show." The rest stay private on purpose — not because they're secret, because they're not good yet.
 
