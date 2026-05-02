@@ -18,7 +18,7 @@ I'm Kieran. I build things across apparel, hardware, and software — usually mo
 
 ## Now
 
-Fresh out of a Bachelor of Commerce (Finance) at Macquarie · **first full year of doing software professionally**. Self-taught, ramping from frontend into hardware this year. Cerebro was the first firmware drop; Trackman firmware is next. Bambu Labs P2S on the way, more ESP32 kits inbound. Trying more things than ever.
+Fresh out of a Bachelor of Commerce (Finance) at Macquarie · **first full year of doing software professionally**. Self-taught, ramping from frontend into hardware this year. Cerebro was the first firmware drop; the TrackMan × Wii Sports Golf bridge is the latest detour. Bambu Labs P2S on the way, more ESP32 kits inbound. Trying more things than ever.
 
 <br/>
 
@@ -28,7 +28,8 @@ Fresh out of a Bachelor of Commerce (Finance) at Macquarie · **first full year 
 <tr>
 <td width="33%" valign="top">
 
-### Health Agent
+<a href="https://healthagent.com.au"><img src="https://img.shields.io/badge/Health_Agent-1E3A5F?style=for-the-badge&labelColor=16130F" alt="Health Agent"/></a>
+
 **Frontend Developer**
 <br/><sub>healthagent.com.au</sub>
 
@@ -37,7 +38,8 @@ Pharma patient-assistance programs. Live and operational.
 </td>
 <td width="33%" valign="top">
 
-### Arctiq Services
+<a href="https://arctiqservices.com.au"><img src="https://img.shields.io/badge/Arctiq_Services-0F766E?style=for-the-badge&labelColor=16130F" alt="Arctiq Services"/></a>
+
 **Director · Brand & Strategy**
 <br/><sub>arctiqservices.com.au</sub>
 
@@ -46,7 +48,8 @@ Refrigeration for the vaccine cold chain. Black-box fridge monitors shipping now
 </td>
 <td width="33%" valign="top">
 
-### 404 Training
+<a href="https://404training.com"><img src="https://img.shields.io/badge/404_Training-B8763A?style=for-the-badge&labelColor=16130F" alt="404 Training"/></a>
+
 **Co-Founder · Technical Director**
 <br/><sub>404training.com</sub>
 
@@ -64,24 +67,25 @@ Apparel + hardware brand. Cerebro was the first firmware drop.
 
 | Repo | What it is |
 |---|---|
-| [**cerebro-firmware**](https://github.com/KezLahd/cerebro-firmware) | ESP32-S3 firmware for the Cerebro voice-capture device — animated face, BLE pairing, Wi-Fi HTTP API, dual-codec audio. |
-| [**cerebro**](https://github.com/KezLahd/cerebro) | Product landing page for Cerebro with a Preston Blair phonetic lip-sync on the hero face. |
-| [**GridAlertPortal**](https://github.com/KezLahd/GridAlertPortal) | Web portal for GridAlert, Arctiq's real-time electricity-outage alerting platform — Next.js + Supabase + PostGIS with multi-tenant RLS. |
-| [**Screen-Split**](https://github.com/KezLahd/Screen-Split) | Windows desktop app that composites your screen + webcam + logo into one resizable window. Python + PyQt6, 2.8k lines. |
+| <a href="https://github.com/KezLahd/cerebro-firmware"><img src="https://img.shields.io/badge/cerebro--firmware-B8763A?style=flat-square&labelColor=16130F" alt="cerebro-firmware"/></a> | ESP32-S3 firmware for the Cerebro voice-capture device — animated face, BLE pairing, Wi-Fi HTTP API, dual-codec audio. |
+| <a href="https://github.com/KezLahd/cerebro"><img src="https://img.shields.io/badge/cerebro-B8763A?style=flat-square&labelColor=16130F" alt="cerebro"/></a> | Product landing page for Cerebro with a Preston Blair phonetic lip-sync on the hero face. |
+| <a href="https://github.com/KezLahd/Wii-Golf-x-Trackman"><img src="https://img.shields.io/badge/Wii--Golf--x--Trackman-2D5F3F?style=flat-square&labelColor=16130F" alt="Wii-Golf-x-Trackman"/></a> | TrackMan 4 → Dolphin bridge. Swing a real golf club at the radar; the Wiimote in Wii Sports Resort Golf swings with you. Synthetic MotionPlus IMU over cemuhook DSU. |
+| <a href="https://github.com/KezLahd/GridAlertPortal"><img src="https://img.shields.io/badge/GridAlertPortal-C2410C?style=flat-square&labelColor=16130F" alt="GridAlertPortal"/></a> | Web portal for GridAlert, Arctiq's real-time electricity-outage alerting platform — Next.js + Supabase + PostGIS with multi-tenant RLS. |
+| <a href="https://github.com/KezLahd/Screen-Split"><img src="https://img.shields.io/badge/Screen--Split-0F766E?style=flat-square&labelColor=16130F" alt="Screen-Split"/></a> | Windows desktop app that composites your screen + webcam + logo into one resizable window. Python + PyQt6, 2.8k lines. |
 
 ### Shelved, kept as receipts
 
 | Repo | What it is |
 |---|---|
-| [**atlas**](https://github.com/KezLahd/atlas) | A content OS I built before I understood that you don't build a content habit by building a content OS. Kept as chapter zero. |
-| [**reverly**](https://github.com/KezLahd/reverly) | AI-voice SaaS for real-estate agents. The tech shipped; the compliance moat to sell it didn't. |
+| <a href="https://github.com/KezLahd/atlas"><img src="https://img.shields.io/badge/atlas-78573A?style=flat-square&labelColor=16130F" alt="atlas"/></a> | A content OS I built before I understood that you don't build a content habit by building a content OS. Kept as chapter zero. |
+| <a href="https://github.com/KezLahd/reverly"><img src="https://img.shields.io/badge/reverly-475569?style=flat-square&labelColor=16130F" alt="reverly"/></a> | AI-voice SaaS for real-estate agents. The tech shipped; the compliance moat to sell it didn't. |
 
 ### Personal / internal
 
 | Repo | What it is |
 |---|---|
-| [**eurotrip**](https://github.com/KezLahd/eurotrip) | Private PWA itinerary app for four mates through Europe. No public landing — this repo is the landing. |
-| [**HackathonWeb-nr**](https://github.com/KezLahd/HackathonWeb-nr) | A tiny two-person task board my mate and I built so we could stay out of each other's way while vibe-coding our first projects together. |
+| <a href="https://github.com/KezLahd/eurotrip"><img src="https://img.shields.io/badge/eurotrip-B45309?style=flat-square&labelColor=16130F" alt="eurotrip"/></a> | Private PWA itinerary app for four mates through Europe. No public landing — this repo is the landing. |
+| <a href="https://github.com/KezLahd/HackathonWeb-nr"><img src="https://img.shields.io/badge/HackathonWeb--nr-4D7C5A?style=flat-square&labelColor=16130F" alt="HackathonWeb-nr"/></a> | A tiny two-person task board my mate and I built so we could stay out of each other's way while vibe-coding our first projects together. |
 
 More may come public as projects graduate out of "learning" and into "ready to show." The rest stay private on purpose — not because they're secret, because they're not good yet.
 
@@ -116,9 +120,9 @@ More may come public as projects graduate out of "learning" and into "ready to s
 ## Reach me
 
 <p>
-  <a href="https://healthagent.com.au"><img src="https://img.shields.io/badge/Health_Agent-16130F?style=for-the-badge" alt="Health Agent"/></a>
-  <a href="https://arctiqservices.com.au"><img src="https://img.shields.io/badge/Arctiq-16130F?style=for-the-badge" alt="Arctiq"/></a>
-  <a href="https://404training.com"><img src="https://img.shields.io/badge/404_Training-1E3A5F?style=for-the-badge" alt="404 Training"/></a>
+  <a href="https://healthagent.com.au"><img src="https://img.shields.io/badge/Health_Agent-1E3A5F?style=for-the-badge&labelColor=16130F" alt="Health Agent"/></a>
+  <a href="https://arctiqservices.com.au"><img src="https://img.shields.io/badge/Arctiq-0F766E?style=for-the-badge&labelColor=16130F" alt="Arctiq"/></a>
+  <a href="https://404training.com"><img src="https://img.shields.io/badge/404_Training-B8763A?style=for-the-badge&labelColor=16130F" alt="404 Training"/></a>
 </p>
 
 <br/>
