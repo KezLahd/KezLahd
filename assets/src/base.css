@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=block');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=block');
 :root { --bg:#f3f1ec; --ink:#16130f; --mute:#6f665b; --line:rgba(22,19,15,.14); --accent:#1e3a5f; --bar:#1e3a5f; --grid:rgba(22,19,15,.06);
-  --display:'Schibsted Grotesk',system-ui,sans-serif; --weight:700; --track:-.045em; --mono:'JetBrains Mono',ui-monospace,monospace; --monosize:13px; }
+  --display:'Urbanist',system-ui,sans-serif; --weight:700; --track:-.035em; --mono:'JetBrains Mono',ui-monospace,monospace; --monosize:13px; }
 .dark { --bg:#121010; --ink:#efe9df; --mute:#968c7f; --line:rgba(239,233,223,.14); --accent:#8fb2dc; --bar:#8fb2dc; --grid:rgba(239,233,223,.05); }
 * { margin:0; box-sizing:border-box; }
 html,body { width:100%; height:100%; background:var(--bg); color:var(--ink); -webkit-font-smoothing:antialiased; }

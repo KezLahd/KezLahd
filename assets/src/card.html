@@ -1,4 +1,4 @@
-<!doctype html><meta charset="utf-8"><link rel="stylesheet" href="base.css"><script src="years.js"></script>
+<!doctype html><meta charset="utf-8"><link rel="stylesheet" href="base.css"><script src="mark.js"></script><script src="years.js"></script>
 <style>
 body { padding:56px 64px 48px; display:flex; flex-direction:column; }
 .top { display:flex; justify-content:space-between; padding-bottom:18px; border-bottom:1px solid var(--line); }
@@ -28,7 +28,8 @@ const [year, theme] = location.hash.slice(1).split('-'); const y = YEARS[year];
 location.hash.slice(1).split('-').forEach(w => /^[a-z]+$/.test(w) && document.body.classList.add(w));
 document.getElementById('label').textContent = y.label;
 document.getElementById('span').textContent = y.span;
-document.getElementById('year').innerHTML = year + '<span class="dot">.</span>';
+document.getElementById('year').textContent = year + '.';
+document.fonts.ready.then(() => fitMark(document.getElementById('year')));
 document.getElementById('line').textContent = y.line;
 document.getElementById('stats').innerHTML = y.stats.map(([n,l]) => `<div class="stat"><b>${n}</b><span class="mono">${l}</span></div>`).join('');
 const max = Math.max(...y.bars);
