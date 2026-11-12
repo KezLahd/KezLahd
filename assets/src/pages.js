@@ -1,0 +1,55 @@
+// What goes on each year's page. tools/render.sh draws every section from this, light and dark.
+window.PAGES = {
+  "2026": {
+    title: "2026 at a glance", sub: "Year one of doing this full time, 1 December 2025 to November 2026.",
+    intro: "A year ago I was a frontend developer. I'd come out of a Bachelor of Commerce (Finance) at Macquarie and taught myself to code. This year I stopped picking work by what I already knew, and started taking on whatever the idea needed.",
+    claudeIntro: "A year of design engineering, or vibe coding if you prefer. I design the thing and decide how it should feel, then Claude and I build it together.",
+    toolsTitle: "Picked up this year",
+    work: [
+      ["Pharma portals", "Patient portals and admin dashboards for several big pharma companies."],
+      ["RFID", "Inventory management, tracked with RFID tags."],
+      ["Hardware", "ESP32 firmware, and 3D printing to put it in something."],
+      ["Apps", "iOS and macOS in SwiftUI. Android in Kotlin."],
+      ["Social", "A short run posting online, then back to building in private."],
+    ],
+    roles: [
+      { name: "Health Agent", role: "Frontend developer · full time", line: "Pharma patient-assistance programs.", url: "https://healthagent.com.au" },
+      { name: "Arctiq", role: "Director · brand and strategy", line: "Refrigeration and monitoring for the vaccine cold chain.", url: "https://arctiqservices.com.au" },
+      { name: "404 Training", role: "Co-founder · technical director", line: "Activewear, with hardware on the side.", url: "https://404training.com" },
+    ],
+    projects: [
+      { name: "Jot", month: "Nov", line: "Speech into words. Share a reel or a voice memo, get a transcript.", icon: "jot", repo: "jot" },
+      { name: "Cut", month: "Nov", line: "Video into stills. Keep the frames worth keeping, hand them to Claude.", icon: "cut", repo: "cut" },
+      { name: "rime", month: "Oct", line: "A frosted-glass React component kit. 69 components.", repo: "rime" },
+      { name: "Wii Golf × TrackMan", month: "May", line: "Swing a real club at a radar; the Wiimote swings with you.", repo: "Wii-Golf-x-Trackman" },
+      { name: "Cerebro firmware", month: "Apr", line: "ESP32-S3 firmware for a voice-capture device.", repo: "cerebro-firmware" },
+      { name: "Cerebro", month: "Mar", line: "The device's landing page, with a lip-synced face.", repo: "cerebro" },
+      { name: "atlas", month: "Jan", line: "A content OS, built before I learned better. Kept as a receipt.", repo: "atlas-legacy" },
+    ],
+    privateCount: 6,
+    claude: { stats: [["3,535", "sessions"], ["1.1M", "lines written"], ["2,360", "commits"], ["591", "hours hands-on"], ["40B", "tokens"], ["2,221", "GitHub contributions"]],
+      note: "Claude Code across three machines, 7 Sep – 12 Nov 2026. GitHub covers the whole year." },
+    tools: ["Swift", "SwiftUI", "Kotlin", "ESP32", "C++", "PlatformIO", "RFID", "3D printing", "Blender", "Shopify", "Claude Code"],
+  },
+  "2025": {
+    title: "2025", sub: "Year zero: the months before full time.",
+    intro: "I'd just finished a Bachelor of Commerce (Finance) and taught myself enough code to be useful. A first software job, an internship that turned into paid work, and a business that didn't work out. Then a quiet few months, a busy November, and the full-time job from 1 December.",
+    toolsTitle: "What I built with",
+    work: [
+      ["First software job", "Tools for a maths education company."],
+      ["Internship", "Unpaid, then paid: the platform behind an outage-alert service."],
+      ["A business", "AI voice for real-estate agents. The tech worked; selling it didn't."],
+      ["Side projects", "A screen-splitting app, a trip planner and a task board."],
+    ],
+    roles: [],
+    projects: [
+      { name: "GridAlert Portal", month: "Dec", line: "The outage alerts portal: Next.js, Supabase and PostGIS.", repo: "GridAlertPortal" },
+      { name: "eurotrip", month: "Jun", line: "An itinerary app for four mates through Europe.", repo: "eurotrip" },
+      { name: "reverly", month: "Jun", line: "AI voice software for real-estate agents.", repo: "reverly" },
+      { name: "HackathonWeb", month: "May", line: "A two-person task board, built while learning to code.", repo: "HackathonWeb-nr" },
+      { name: "Screen Split", month: "Apr", line: "Screen, webcam and logo in one window. Python and PyQt6.", repo: "Screen-Split" },
+    ],
+    privateCount: 7,
+    tools: ["Next.js", "TypeScript", "Supabase", "Tailwind", "Python", "PostGIS"],
+  },
+};

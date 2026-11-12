@@ -1,6 +1,6 @@
 # Adding a year
 
-1. Add the year to `assets/src/years.js`: its label, dates, three stats and GitHub contributions per month.
-2. Run `tools/render.sh` to draw its card, light and dark.
-3. Copy last year's page to `years/<year>.md` and write it.
+1. Add the year to `assets/src/years.js` (its card: dates, three stats, GitHub contributions per month).
+2. Add the year to `assets/src/pages.js` (its page: intro, the work, roles, projects, Claude stats, tools).
+3. Run `tools/render.sh` to draw every image, light and dark, then `node tools/pages.mjs` to write `years/<year>.md`.
 4. Put the new card at the top of the main README.
