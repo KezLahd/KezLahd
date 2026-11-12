@@ -18,7 +18,7 @@ I'm Kieran. I build things across apparel, hardware, and software — usually mo
 
 ## Now
 
-Fresh out of a Bachelor of Commerce (Finance) at Macquarie · **first full year of doing software professionally**. Self-taught, ramping from frontend into hardware this year. Cerebro was the first firmware drop; the TrackMan × Wii Sports Golf bridge is the latest detour. Bambu Labs P2S on the way, more ESP32 kits inbound. Trying more things than ever.
+Fresh out of a Bachelor of Commerce (Finance) at Macquarie · **first full year of doing software professionally**. Self-taught, ramping from frontend into hardware this year. Cerebro was the first firmware drop; the TrackMan × Wii Sports Golf bridge was a detour, and lately it's been iPhone apps: Jot and Cut. Bambu Labs P2S on the way, more ESP32 kits inbound. Trying more things than ever.
 
 <br/>
 
@@ -61,12 +61,42 @@ Apparel + hardware brand. Cerebro was the first firmware drop.
 
 <br/>
 
+## iPhone apps
+
+Two apps that do one job each, built in SwiftUI for iOS 26 with Claude. Both are open source under MIT.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://github.com/KezLahd/jot"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KezLahd/jot/main/docs/icon-dark.png"><img src="https://raw.githubusercontent.com/KezLahd/jot/main/docs/icon-light.png" width="96" alt="Jot icon"></picture></a>
+
+**[Jot](https://github.com/KezLahd/jot)** · *Speech into words.*
+
+Share a reel, a video or a voice memo and get a clean, timestamped transcript. For iPhone and Mac.
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://github.com/KezLahd/cut"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KezLahd/cut/main/docs/icon-dark.png"><img src="https://raw.githubusercontent.com/KezLahd/cut/main/docs/icon-light.png" width="96" alt="Cut icon"></picture></a>
+
+**[Cut](https://github.com/KezLahd/cut)** · *Video into stills.*
+
+Share a reel, a video or a recording of your screen, keep the frames worth keeping, and hand them to Claude.
+
+</td>
+</tr>
+</table>
+
+<br/>
+
 ## Public on GitHub
 
 ### Shipped
 
 | Repo | What it is |
 |---|---|
+| <a href="https://github.com/KezLahd/rime"><img src="https://img.shields.io/badge/rime-1F5BC4?style=flat-square&labelColor=16130F" alt="rime"/></a> | Frosted-glass React component kit: 69 components, installs with the shadcn CLI, themes with one CSS file. Live at [rime.mjsons.net](https://rime.mjsons.net). |
 | <a href="https://github.com/KezLahd/cerebro-firmware"><img src="https://img.shields.io/badge/cerebro--firmware-B8763A?style=flat-square&labelColor=16130F" alt="cerebro-firmware"/></a> | ESP32-S3 firmware for the Cerebro voice-capture device — animated face, BLE pairing, Wi-Fi HTTP API, dual-codec audio. |
 | <a href="https://github.com/KezLahd/cerebro"><img src="https://img.shields.io/badge/cerebro-B8763A?style=flat-square&labelColor=16130F" alt="cerebro"/></a> | Product landing page for Cerebro with a Preston Blair phonetic lip-sync on the hero face. |
 | <a href="https://github.com/KezLahd/Wii-Golf-x-Trackman"><img src="https://img.shields.io/badge/Wii--Golf--x--Trackman-2D5F3F?style=flat-square&labelColor=16130F" alt="Wii-Golf-x-Trackman"/></a> | TrackMan 4 → Dolphin bridge. Swing a real golf club at the radar; the Wiimote in Wii Sports Resort Golf swings with you. Synthetic MotionPlus IMU over cemuhook DSU. |
@@ -77,7 +107,7 @@ Apparel + hardware brand. Cerebro was the first firmware drop.
 
 | Repo | What it is |
 |---|---|
-| <a href="https://github.com/KezLahd/atlas"><img src="https://img.shields.io/badge/atlas-78573A?style=flat-square&labelColor=16130F" alt="atlas"/></a> | A content OS I built before I understood that you don't build a content habit by building a content OS. Kept as chapter zero. |
+| <a href="https://github.com/KezLahd/atlas-legacy"><img src="https://img.shields.io/badge/atlas--legacy-78573A?style=flat-square&labelColor=16130F" alt="atlas-legacy"/></a> | A content OS I built before I understood that you don't build a content habit by building a content OS. Kept as chapter zero. |
 | <a href="https://github.com/KezLahd/reverly"><img src="https://img.shields.io/badge/reverly-475569?style=flat-square&labelColor=16130F" alt="reverly"/></a> | AI-voice SaaS for real-estate agents. The tech shipped; the compliance moat to sell it didn't. |
 
 ### Personal / internal
@@ -99,6 +129,12 @@ More may come public as projects graduate out of "learning" and into "ready to s
   <img src="https://img.shields.io/badge/Supabase-16130F?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase"/>
   <img src="https://img.shields.io/badge/Tailwind-16130F?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind"/>
   <img src="https://img.shields.io/badge/shadcn/ui-16130F?style=for-the-badge&logo=shadcnui&logoColor=white" alt="shadcn"/>
+</p>
+<p>
+  <img src="https://img.shields.io/badge/Swift-FF3B2F?style=for-the-badge&logo=swift&logoColor=white&labelColor=16130F" alt="Swift"/>
+  <img src="https://img.shields.io/badge/SwiftUI-16130F?style=for-the-badge&logo=swift&logoColor=white" alt="SwiftUI"/>
+  <img src="https://img.shields.io/badge/iOS_26-16130F?style=for-the-badge&logo=apple&logoColor=white" alt="iOS 26"/>
+  <img src="https://img.shields.io/badge/GitHub_Actions-16130F?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
 </p>
 <p>
   <img src="https://img.shields.io/badge/ESP32--S3-1E3A5F?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32-S3"/>
