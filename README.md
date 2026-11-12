@@ -30,6 +30,24 @@ A year ago I was a frontend developer. Now I'll take on whatever the idea needs:
 
 <br/>
 
+## Built with Claude
+
+This has been a year of design engineering, or vibe coding if you prefer. I design the thing and decide what it should feel like, then Claude and I build it together. Everything above came out of that. In September I built a dashboard to keep count across my three machines. Since then:
+
+<table>
+<tr>
+<td align="center"><b>3,535</b><br/><sub>sessions</sub></td>
+<td align="center"><b>1.1M</b><br/><sub>lines written</sub></td>
+<td align="center"><b>2,360</b><br/><sub>commits</sub></td>
+<td align="center"><b>591</b><br/><sub>hours hands-on</sub></td>
+<td align="center"><b>40B</b><br/><sub>tokens</sub></td>
+</tr>
+</table>
+
+<sub>7 September to 12 November 2026, Claude Code on a Mac mini and two laptops.</sub>
+
+<br/>
+
 ## What I'm building
 
 <table>
