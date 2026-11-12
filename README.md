@@ -16,7 +16,7 @@ Once a year I write down what I built.
   </picture>
 </a>
 
-<p align="center"><a href="years/2026.md"><b>2026 at a glance</b></a> · Year one, full time</p>
+<p><a href="years/2026.md"><b>Read 2026 at a glance →</b></a><br/><sub>Year one, full time</sub></p>
 
 <br/>
 
@@ -27,7 +27,7 @@ Once a year I write down what I built.
   </picture>
 </a>
 
-<p align="center"><a href="years/2025.md"><b>2025</b></a> · Before full time</p>
+<p><a href="years/2025.md"><b>Read 2025 →</b></a><br/><sub>Before full time</sub></p>
 
 <br/>
 

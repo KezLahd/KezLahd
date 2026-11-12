@@ -1,37 +1,35 @@
 <!doctype html><meta charset="utf-8"><link rel="stylesheet" href="base.css"><script src="mark.js"></script><script src="years.js"></script>
+<!-- Drawn for phone width: GitHub shrinks this 1200px card to about a third, so nothing is set smaller than 28px. -->
 <style>
-body { padding:56px 64px 48px; display:flex; flex-direction:column; }
-.top { display:flex; justify-content:space-between; padding-bottom:18px; border-bottom:1px solid var(--line); }
-.mid { flex:1; display:flex; align-items:center; gap:64px; }
-.year { font-size:220px; line-height:.8; }
-.line { font-size:32px; color:var(--mute); margin-top:18px; }
-.stats { margin-left:auto; width:420px; }
-.stat { display:flex; align-items:baseline; justify-content:space-between; padding:14px 0; border-bottom:1px solid var(--line); }
-.stat:first-child { border-top:1px solid var(--line); }
-.stat b { font-family:var(--display); font-weight:600; letter-spacing:-.03em; font-size:50px; line-height:1; }
-.chart { display:flex; align-items:flex-end; gap:10px; height:96px; }
-.col { flex:1; display:flex; flex-direction:column; align-items:center; gap:8px; height:100%; justify-content:flex-end; }
-.bar { width:100%; background:var(--bar); border-radius:2px; }
+body { padding:8px 4px; display:flex; flex-direction:column; justify-content:space-between; }
+.head { display:flex; justify-content:space-between; align-items:flex-end; }
+.year { font-size:240px; line-height:.78; }
+.meta { text-align:right; padding-bottom:6px; }
+.meta .mono { font-size:30px; }
+.meta .text { font-size:38px; color:var(--mute); margin-top:8px; }
+.stats { display:grid; grid-template-columns:repeat(3,1fr); border-top:2px solid var(--line); padding-top:26px; }
+.stat b { display:block; font-family:var(--display); font-weight:700; letter-spacing:-.035em; font-size:92px; line-height:1; }
+.stat span { display:block; font-size:34px; color:var(--mute); margin-top:8px; }
+.chart { display:flex; align-items:flex-end; gap:12px; height:170px; }
+.col { flex:1; display:flex; flex-direction:column; align-items:center; gap:10px; height:100%; justify-content:flex-end; }
+.bar { width:100%; background:var(--bar); border-radius:4px; }
 .bar.zero { background:var(--line); }
-.foot { display:flex; justify-content:space-between; margin-top:14px; }
+.col .mono { font-size:28px; letter-spacing:0; }
+.cap { font-size:30px; color:var(--mute); }
 </style>
 <body>
-<div class="top"><span class="mono" id="label"></span><span class="mono" id="span"></span></div>
-<div class="mid">
-  <div><div class="year display" id="year"></div><div class="line text" id="line"></div></div>
-  <div class="stats" id="stats"></div>
-</div>
-<div class="chart" id="chart"></div>
-<div class="foot"><span class="mono">GitHub contributions by month</span><span class="mono">Kieran Jackson</span></div>
+<div class="head"><div class="year display" id="year"></div>
+  <div class="meta"><div class="mono" id="label"></div><div class="text" id="span"></div></div></div>
+<div class="stats" id="stats"></div>
+<div><div class="chart" id="chart"></div><div class="cap text" style="margin-top:14px">GitHub contributions by month</div></div>
 <script>
-const [year, theme] = location.hash.slice(1).split('-'); const y = YEARS[year];
+const [year] = location.hash.slice(1).split('-'); const y = YEARS[year];
 location.hash.slice(1).split('-').forEach(w => /^[a-z]+$/.test(w) && document.body.classList.add(w));
 document.getElementById('label').textContent = y.label;
 document.getElementById('span').textContent = y.span;
 document.getElementById('year').textContent = year + '.';
 document.fonts.ready.then(() => fitMark(document.getElementById('year')));
-document.getElementById('line').textContent = y.line;
-document.getElementById('stats').innerHTML = y.stats.map(([n,l]) => `<div class="stat"><b>${n}</b><span class="mono">${l}</span></div>`).join('');
+document.getElementById('stats').innerHTML = y.stats.map(([n,l]) => `<div class="stat"><b>${n}</b><span class="text">${l}</span></div>`).join('');
 const max = Math.max(...y.bars);
-document.getElementById('chart').innerHTML = y.bars.map((v,i) => `<div class="col"><div class="bar ${v?'':'zero'}" style="height:${v ? Math.max(4, v/max*72) : 2}px"></div><span class="mono" style="letter-spacing:0">${y.months[i]}</span></div>`).join('');
+document.getElementById('chart').innerHTML = y.bars.map((v,i) => `<div class="col"><div class="bar ${v?'':'zero'}" style="height:${v ? Math.max(8, v/max*120) : 4}px"></div><span class="mono">${y.months[i]}</span></div>`).join('');
 </script>

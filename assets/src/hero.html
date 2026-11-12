@@ -1,18 +1,11 @@
 <!doctype html><meta charset="utf-8"><link rel="stylesheet" href="base.css"><script src="mark.js"></script>
 <style>
-body { padding:56px 64px; display:flex; flex-direction:column; justify-content:space-between;
-  background-image: linear-gradient(var(--grid) 1px, transparent 1px), linear-gradient(90deg, var(--grid) 1px, transparent 1px);
-  background-size:56px 56px; background-position:-1px -1px; }
-body::after { content:''; position:fixed; inset:0; background:radial-gradient(ellipse at 30% 0%, transparent 0%, var(--bg) 85%); z-index:-1; }
-.wrap { position:relative; z-index:1; }
-.name { font-size:140px; line-height:.9; white-space:nowrap; }
-.sub { font-size:28px; color:var(--mute); margin-top:22px; }
-.top, .bottom { display:flex; justify-content:space-between; }
+body { display:flex; flex-direction:column; justify-content:center; padding:0 4px; }
+.name { font-size:178px; line-height:1; white-space:nowrap; }
+.sub { font-size:46px; color:var(--mute); margin-top:18px; }
 </style>
 <body>
-<div class="top"><span class="mono">Sydney, Australia</span><span class="mono">Est. 2025</span></div>
-<div><div class="name display">Kieran Jackson.</div>
-<div class="sub text">Software, hardware and apparel. Mostly built in private.</div></div>
-<div class="bottom"><span class="mono">Design engineer</span><span class="mono">Year by year ↓</span></div>
-<script>location.hash.slice(1).split('-').forEach(w => w && document.body.classList.add(w))
+<div class="name display">Kieran Jackson.</div>
+<div class="sub text">Software, hardware and apparel. Mostly built in private.</div>
+<script>location.hash.slice(1).split('-').forEach(w => w && document.body.classList.add(w));
 document.fonts.ready.then(() => fitMark(document.querySelector('.name')));</script>
