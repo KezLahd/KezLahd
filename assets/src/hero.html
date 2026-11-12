@@ -1,0 +1,17 @@
+<!doctype html><meta charset="utf-8"><link rel="stylesheet" href="base.css">
+<style>
+body { padding:56px 64px; display:flex; flex-direction:column; justify-content:space-between;
+  background-image: linear-gradient(var(--grid) 1px, transparent 1px), linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+  background-size:56px 56px; background-position:-1px -1px; }
+body::after { content:''; position:fixed; inset:0; background:radial-gradient(ellipse at 30% 0%, transparent 0%, var(--bg) 85%); z-index:-1; }
+.wrap { position:relative; z-index:1; }
+.name { font-size:164px; line-height:.86; letter-spacing:-5px; }
+.sub { font-size:30px; font-style:italic; color:var(--mute); margin-top:22px; }
+.top, .bottom { display:flex; justify-content:space-between; }
+</style>
+<body class="serif">
+<div class="top"><span class="mono">Sydney, Australia</span><span class="mono">Est. 2025</span></div>
+<div><div class="name">Kieran Jackson<span class="dot">.</span></div>
+<div class="sub">Software, hardware and apparel. Mostly built in private.</div></div>
+<div class="bottom"><span class="mono">Design engineer</span><span class="mono">Year by year ↓</span></div>
+<script>if (location.hash === '#dark') document.body.classList.add('dark')</script>
