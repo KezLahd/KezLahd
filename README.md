@@ -4,7 +4,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Sydney-Australia-16130F?style=for-the-badge&labelColor=16130F" alt="Sydney"/>
-  <img src="https://img.shields.io/badge/Year-01-1E3A5F?style=for-the-badge&labelColor=16130F" alt="Year"/>
+  <img src="https://img.shields.io/badge/Year-02-1E3A5F?style=for-the-badge&labelColor=16130F" alt="Year"/>
   <img src="https://img.shields.io/badge/Mostly-Private-16130F?style=for-the-badge&labelColor=1E3A5F" alt="Mostly Private"/>
 </p>
 
@@ -12,13 +12,21 @@
 
 ## Hey
 
-I'm Kieran. I build things across apparel, hardware, and software — usually more than one at a time. This GitHub is the **home of every project I'm making**. Most of the repos stay private while I'm still learning in public-but-quietly. The public ones are the ones someone asked to see.
+I'm Kieran. I build things across software, hardware and apparel, usually more than one at a time. Almost everything I make lives here, and almost all of it is private. The public repos are the ones someone asked to see.
 
 <br/>
 
 ## Now
 
-Fresh out of a Bachelor of Commerce (Finance) at Macquarie · **first full year of doing software professionally**. Self-taught, ramping from frontend into hardware this year. Cerebro was the first firmware drop; the TrackMan × Wii Sports Golf bridge was a detour, and lately it's been iPhone apps: Jot and Cut. Bambu Labs P2S on the way, more ESP32 kits inbound. Trying more things than ever.
+A year in. I came out of a Bachelor of Commerce (Finance) at Macquarie, taught myself to code, and have spent the year building for real. In that time I've:
+
+- built patient portals for several big pharma companies
+- built RFID inventory management
+- written firmware for ESP32 hardware, and taken up 3D printing to house it
+- shipped iOS and macOS apps in SwiftUI, and Android apps in Kotlin
+- had a short run at posting on social media
+
+A year ago I was a frontend developer. Now I'll take on whatever the idea needs: a portal, a device, an app. Right now I'm back to building in private.
 
 <br/>
 
