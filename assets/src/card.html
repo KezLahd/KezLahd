@@ -3,29 +3,29 @@
 body { padding:56px 64px 48px; display:flex; flex-direction:column; }
 .top { display:flex; justify-content:space-between; padding-bottom:18px; border-bottom:1px solid var(--line); }
 .mid { flex:1; display:flex; align-items:center; gap:64px; }
-.year { font-size:232px; line-height:.8; letter-spacing:-6px; }
-.line { font-size:34px; font-style:italic; color:var(--mute); margin-top:18px; }
+.year { font-size:220px; line-height:.8; }
+.line { font-size:32px; color:var(--mute); margin-top:18px; }
 .stats { margin-left:auto; width:420px; }
 .stat { display:flex; align-items:baseline; justify-content:space-between; padding:14px 0; border-bottom:1px solid var(--line); }
 .stat:first-child { border-top:1px solid var(--line); }
-.stat b { font-family:'Instrument Serif',Georgia,serif; font-weight:400; font-size:54px; line-height:1; }
+.stat b { font-family:var(--display); font-weight:600; letter-spacing:-.03em; font-size:50px; line-height:1; }
 .chart { display:flex; align-items:flex-end; gap:10px; height:96px; }
 .col { flex:1; display:flex; flex-direction:column; align-items:center; gap:8px; height:100%; justify-content:flex-end; }
 .bar { width:100%; background:var(--bar); border-radius:2px; }
 .bar.zero { background:var(--line); }
 .foot { display:flex; justify-content:space-between; margin-top:14px; }
 </style>
-<body class="serif">
+<body>
 <div class="top"><span class="mono" id="label"></span><span class="mono" id="span"></span></div>
 <div class="mid">
-  <div><div class="year" id="year"></div><div class="line" id="line"></div></div>
+  <div><div class="year display" id="year"></div><div class="line text" id="line"></div></div>
   <div class="stats" id="stats"></div>
 </div>
 <div class="chart" id="chart"></div>
 <div class="foot"><span class="mono">GitHub contributions by month</span><span class="mono">Kieran Jackson</span></div>
 <script>
 const [year, theme] = location.hash.slice(1).split('-'); const y = YEARS[year];
-if (theme === 'dark') document.body.classList.add('dark');
+location.hash.slice(1).split('-').forEach(w => /^[a-z]+$/.test(w) && document.body.classList.add(w));
 document.getElementById('label').textContent = y.label;
 document.getElementById('span').textContent = y.span;
 document.getElementById('year').innerHTML = year + '<span class="dot">.</span>';
