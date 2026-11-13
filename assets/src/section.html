@@ -1,6 +1,6 @@
 <!doctype html><meta charset="utf-8"><link rel="stylesheet" href="base.css"><script src="pages.js"></script>
 <!-- One section of a year page, drawn for phone width: GitHub shrinks it to about a third, so nothing is under 30px. -->
-<!-- #<year>-<theme>-<kind>[-<index>], kind = work | role | project | claude | tools -->
+<!-- #<year>-<theme>-<kind>[-<index>], kind = work | role | project | private | claude | tools -->
 <style>
 body { height:auto; padding:6px 4px; font-family:var(--display); font-weight:500; }
 .grid { display:grid; grid-template-columns:1fr 1fr; gap:0 40px; }
@@ -16,6 +16,7 @@ body { height:auto; padding:6px 4px; font-family:var(--display); font-weight:500
 .row p { font-size:36px; line-height:1.25; color:var(--mute); margin-top:10px; }
 .ico { width:132px; height:132px; border-radius:30px; flex:none; border:2px solid var(--line); display:flex; align-items:center; justify-content:center; overflow:hidden; }
 .ico img { width:100%; height:100%; }
+.ico.plate { background:#fff; }
 .ico b { font-family:var(--display); font-weight:700; font-size:64px; letter-spacing:-.03em; color:var(--mute); }
 .row .go { font-family:var(--display); font-size:64px; color:var(--accent); flex:none; width:60px; text-align:right; }
 .stats { display:grid; grid-template-columns:repeat(3,1fr); gap:0 40px; }
@@ -37,6 +38,8 @@ if (kind === 'work') h = `<div class="grid">${p.work.map(([t, l], n) => `<div cl
 if (kind === 'role') { const r = p.roles[+i]; h = `<div class="row"><div class="body"><h2>${esc(r.name)}</h2><div class="sub mono">${esc(r.role)}</div><p>${esc(r.line)}</p></div><div class="go">↗</div></div>`; }
 if (kind === 'project') { const r = p.projects[+i];
   h = `<div class="row"><div class="when mono">${r.month}</div><div class="ico">${r.icon ? `<img src="../icons/${r.icon}-${theme}.png">` : `<b>${esc(r.name[0])}</b>`}</div><div class="body"><h2>${esc(r.name)}</h2><p>${esc(r.line)}</p></div><div class="go">↗</div></div>`; }
+if (kind === 'private') { const r = p.private[+i];
+  h = `<div class="row"><div class="ico${r.logo ? ' plate' : ''}">${r.icon ? `<img src="../icons/${r.icon}-${theme}.png">` : r.logo ? `<img src="../icons/${r.logo}.png">` : `<b>${esc(r.name[0])}</b>`}</div><div class="body"><h2>${esc(r.name)}</h2><p>${esc(r.line)}</p></div></div>`; }
 if (kind === 'claude') h = `<div class="stats">${p.claude.stats.map(([n, l]) => `<div class="stat"><b>${n}</b><span class="text">${l}</span></div>`).join('')}</div><div class="note text">${esc(p.claude.note)}</div>`;
 if (kind === 'tools') h = `<div class="chips">${p.tools.map(t => `<span class="chip${t === 'Claude Code' ? ' on' : ''}">${esc(t)}</span>`).join('')}</div>`;
 document.getElementById('m').innerHTML = h;

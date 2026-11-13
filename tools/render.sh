@@ -14,12 +14,13 @@ done
 for t in light dark; do
   for y in $(grep -oE '^  "[0-9]{4}"' $src/pages.js | tr -d ' "'); do
     d=assets/years/$y; mkdir -p $d
-    np=$(node -e "global.window={};eval(require('fs').readFileSync('$src/pages.js','utf8'));const p=window.PAGES['$y'];console.log(p.projects.length, p.roles.length, p.claude?1:0)")
+    np=$(node -e "global.window={};eval(require('fs').readFileSync('$src/pages.js','utf8'));const p=window.PAGES['$y'];console.log(p.projects.length, p.roles.length, p.claude?1:0, (p.private||[]).length)")
     set -- ${=np}
     swift tools/render.swift "$PWD/$src/section.html#$y-$t-work" $d/work-$t.png 1200 0
     swift tools/render.swift "$PWD/$src/section.html#$y-$t-tools" $d/tools-$t.png 1200 0
     [ $3 = 1 ] && swift tools/render.swift "$PWD/$src/section.html#$y-$t-claude" $d/claude-$t.png 1200 0
     for i in $(seq 0 $(($1 - 1))); do swift tools/render.swift "$PWD/$src/section.html#$y-$t-project-$i" $d/project-$i-$t.png 1200 0; done
+    [ $4 -gt 0 ] && for i in $(seq 0 $(($4 - 1))); do swift tools/render.swift "$PWD/$src/section.html#$y-$t-private-$i" $d/private-$i-$t.png 1200 0; done
     [ $2 -gt 0 ] && for i in $(seq 0 $(($2 - 1))); do swift tools/render.swift "$PWD/$src/section.html#$y-$t-role-$i" $d/role-$i-$t.png 1200 0; done
   done
 done
