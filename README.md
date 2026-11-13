@@ -33,4 +33,4 @@ Once a year I write down what I built.
 
 ---
 
-<p align="center"><sub>Sydney · <a href="https://instagram.com/kieranjxn">@kieranjxn</a></sub></p>
+<p align="center"><sub>Sydney · <a href="https://www.kieranjackson.com">kieranjackson.com</a> · <a href="https://instagram.com/kieranjxn">@kieranjxn</a></sub></p>
